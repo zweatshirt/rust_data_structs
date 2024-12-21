@@ -43,7 +43,7 @@ pub fn divide(num: i32, denom: i32) -> Option<i32> {
     return Some(num / denom)
 }
 
-pub fn read_file(f_path: &str) -> Result<String, String> {
+pub fn is_file_valid(f_path: &str) -> Result<String, String> {
     if Path::new(f_path).exists() {
         return Ok(String::from("File exists!"))
     }
