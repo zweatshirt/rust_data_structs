@@ -1,5 +1,3 @@
-use core::hash;
-
 mod vectors;
 mod hashmaps;
 
