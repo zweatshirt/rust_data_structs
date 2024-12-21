@@ -1,5 +1,6 @@
 mod vectors;
 mod hashmaps;
+mod stacks_queues;
 
 fn main() {
     vectors::make_vecs();
@@ -7,4 +8,6 @@ fn main() {
     hashmaps::make_maps();
     hashmaps::map_with_cap();
     hashmaps::map_challenge();
+    stacks_queues::stacks();
+    stacks_queues::queues();
 }
